@@ -1,0 +1,24 @@
+.game-over-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 700px;
+    background-color: rgb(56, 56, 56);
+    margin-top: -4px;
+    z-index: 11;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+  }
+  body {
+    margin: 0;
+    background-color: rgb(39, 39, 39);
+    display: flex;
+    justify-content: center;
+    font-family: "Courier New", Courier, monospace;
+  }
+  
